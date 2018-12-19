@@ -20,7 +20,7 @@ Further information please contact [Yu-Lun Liu](http://www.cmlab.csie.ntu.edu.tw
 ## Data Preparation
 * [Deep Voxel Flow (DVF)](https://github.com/liuziwei7/voxel-flow)
 
-## Getting started
+## Usage
 * Run the training script:
 ``` bash
 python3 CyclicGen_train_stage1.py --subset=train
@@ -28,6 +28,10 @@ python3 CyclicGen_train_stage1.py --subset=train
 * Run the testing and evaluation script:
 ``` bash
 python3 CyclicGen_train_stage1.py --subset=test
+```
+* Uun your own pair of frames:
+``` bash
+python3 run.py --first=./first.png --second=./second.png --out ./out.png
 ```
 
 ## Citation
