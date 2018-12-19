@@ -4,16 +4,17 @@ Video frame interpolation algorithms predict intermediate frames to produce vide
 [[Project]](http://www.cmlab.csie.ntu.edu.tw/~yulunliu/CyclicGen) [Paper]
 
 ## Overview
-This is the author's implementation of the video frame interpolation described in:
+This is the author's reference implementation of the video frame interpolation using TensorFlow described in:
 "Deep Video Frame Interpolation using Cyclic Frame Generation"
 [Yu-Lun Liu](http://www.cmlab.csie.ntu.edu.tw/~yulunliu/), [Yi-Tung Liao](http://www.cmlab.csie.ntu.edu.tw/~queenieliaw/), [Yen-Yu Lin](https://www.citi.sinica.edu.tw/pages/yylin/), [Yung-Yu Chuang](https://www.csie.ntu.edu.tw/~cyy/) (Academia Sinica & National Taiwan University & MediaTek)
 in 33rd AAAI Conference on Artificial Intelligence (AAAI) 2019, Oral Presentation
+Should you be making use of our work, please cite our paper [1].
 
 <img src='./teaser.png' width=400>
 
-Further information please contact [Yu-Lun Liu Liu](http://www.cmlab.csie.ntu.edu.tw/~yulunliu/).
+Further information please contact [Yu-Lun Liu](http://www.cmlab.csie.ntu.edu.tw/~yulunliu/).
 
-## Requirements
+## Requirements setup
 * [TensorFlow](https://www.tensorflow.org/)
 
 ## Data Preparation
@@ -22,5 +23,19 @@ Further information please contact [Yu-Lun Liu Liu](http://www.cmlab.csie.ntu.ed
 ## Getting started
 * Run the training script:
 ``` bash
-python3 voxel_flow_train.py --subset=train
+python3 CyclicGen_train_stage1.py --subset=train
+```
+* Run the testing and evaluation script:
+``` bash
+python3 CyclicGen_train_stage1.py --subset=test
+```
+
+## Citation
+```
+[1]  @inproceedings{liu2019cyclicgen,
+         author = {Yu-Lun Liu, Yi-Tung Liao, Yen-Yu Lin, and Yung-Yu Chuang},
+         title = {Deep Video Frame Interpolation using Cyclic Frame Generation},
+         booktitle = {AAAI},
+         year = {2019}
+}
 ```
