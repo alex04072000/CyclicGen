@@ -10,3 +10,17 @@ This is the author's implementation of the video frame interpolation described i
 in 33rd AAAI Conference on Artificial Intelligence (AAAI) 2019, Oral Presentation
 
 <img src='./teaser.png' width=400>
+
+Further information please contact [Yu-Lun Liu Liu](http://www.cmlab.csie.ntu.edu.tw/~yulunliu/).
+
+## Requirements
+* [TensorFlow](https://www.tensorflow.org/)
+
+## Data Preparation
+* [Deep Voxel Flow (DVF)](https://github.com/liuziwei7/voxel-flow)
+
+## Getting started
+* Run the training script:
+``` bash
+python3 voxel_flow_train.py --subset=train
+```
