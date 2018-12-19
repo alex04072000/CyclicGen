@@ -8,7 +8,7 @@ This is the author's reference implementation of the video frame interpolation u
 "Deep Video Frame Interpolation using Cyclic Frame Generation"
 [Yu-Lun Liu](http://www.cmlab.csie.ntu.edu.tw/~yulunliu/), [Yi-Tung Liao](http://www.cmlab.csie.ntu.edu.tw/~queenieliaw/), [Yen-Yu Lin](https://www.citi.sinica.edu.tw/pages/yylin/), [Yung-Yu Chuang](https://www.csie.ntu.edu.tw/~cyy/) (Academia Sinica & National Taiwan University & MediaTek)
 in 33rd AAAI Conference on Artificial Intelligence (AAAI) 2019, Oral Presentation
-Should you be making use of our work, please cite our paper [1].
+Should you be making use of our work, please cite our paper [1]. Some codes are forked from [Deep Voxel Flow (DVF)](https://github.com/liuziwei7/voxel-flow) [2] and [Holistically-Nested Edge Detection (HED)](https://github.com/moabitcoin/holy-edge) [3].
 
 <img src='./teaser.png' width=400>
 
@@ -43,7 +43,24 @@ python3 run.py --first=./first.png --second=./second.png --out ./out.png
          title = {Deep Video Frame Interpolation using Cyclic Frame Generation},
          booktitle = {AAAI},
          year = {2019}
-}
+     }
+```
+```
+[2]  @inproceedings{liu2017voxelflow,
+         author = {Ziwei Liu, Raymond Yeh, Xiaoou Tang, Yiming Liu, and Aseem Agarwala},
+         title = {Video Frame Synthesis using Deep Voxel Flow},
+         booktitle = {Proceedings of International Conference on Computer Vision (ICCV)},
+         month = {October},
+         year = {2017} 
+     }
+```
+```
+[3]  @InProceedings{xie15hed,
+         author = {"Xie, Saining and Tu, Zhuowen"},
+         Title = {Holistically-Nested Edge Detection},
+         Booktitle = "Proceedings of IEEE International Conference on Computer Vision",
+         Year  = {2015},
+     }
 ```
 
 ## acknowledgment
