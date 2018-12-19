@@ -10,7 +10,7 @@ This is the author's reference implementation of the video frame interpolation u
 in 33rd AAAI Conference on Artificial Intelligence (AAAI) 2019, Oral Presentation.
 Should you be making use of our work, please cite our paper [1]. Some codes are forked from [Deep Voxel Flow (DVF)](https://github.com/liuziwei7/voxel-flow) [2] and [Holistically-Nested Edge Detection (HED)](https://github.com/moabitcoin/holy-edge) [3].
 
-<img src='./teaser.png' width=400>
+<img src='./teaser.png' width=500>
 
 Further information please contact [Yu-Lun Liu](http://www.cmlab.csie.ntu.edu.tw/~yulunliu/).
 
