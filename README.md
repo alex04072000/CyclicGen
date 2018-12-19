@@ -9,4 +9,4 @@ This is the author's implementation of the video frame interpolation described i
 [Yu-Lun Liu](http://www.cmlab.csie.ntu.edu.tw/~yulunliu/), [Yi-Tung Liao](http://www.cmlab.csie.ntu.edu.tw/~queenieliaw/), [Yen-Yu Lin](https://www.citi.sinica.edu.tw/pages/yylin/), [Yung-Yu Chuang](https://www.csie.ntu.edu.tw/~cyy/) (Academia Sinica & National Taiwan University & MediaTek)
 in 33rd AAAI Conference on Artificial Intelligence (AAAI) 2019, Oral Presentation
 
-<img src='.t/easer.png' width=800>
+<img src='./teaser.png' width=800>
