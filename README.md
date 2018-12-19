@@ -7,7 +7,7 @@ Video frame interpolation algorithms predict intermediate frames to produce vide
 This is the author's reference implementation of the video frame interpolation using TensorFlow described in:
 "Deep Video Frame Interpolation using Cyclic Frame Generation"
 [Yu-Lun Liu](http://www.cmlab.csie.ntu.edu.tw/~yulunliu/), [Yi-Tung Liao](http://www.cmlab.csie.ntu.edu.tw/~queenieliaw/), [Yen-Yu Lin](https://www.citi.sinica.edu.tw/pages/yylin/), [Yung-Yu Chuang](https://www.csie.ntu.edu.tw/~cyy/) (Academia Sinica & National Taiwan University & MediaTek)
-in 33rd AAAI Conference on Artificial Intelligence (AAAI) 2019, Oral Presentation
+in 33rd AAAI Conference on Artificial Intelligence (AAAI) 2019, Oral Presentation.
 Should you be making use of our work, please cite our paper [1]. Some codes are forked from [Deep Voxel Flow (DVF)](https://github.com/liuziwei7/voxel-flow) [2] and [Holistically-Nested Edge Detection (HED)](https://github.com/moabitcoin/holy-edge) [3].
 
 <img src='./teaser.png' width=400>
@@ -33,6 +33,7 @@ python3 CyclicGen_train_stage1.py --subset=test
 ``` bash
 python3 run.py --first=./first.png --second=./second.png --out ./out.png
 ```
+Note that we provide two baseline models: 1) original DVF ```CyclicGen_model.py```, and 2) DVF with more layers to order to increase receptive field ```CyclicGen_model_large.py```. While test on UCF-101 dataset, we use the ```CyclicGen_model.py``` network. The motion in Middlebury dataset are much larger than UCF-101, some even exceed the receiptive field of DVF network. So we use ```CyclicGen_model_large.py``` for fine-tuning and testing.
 
 ## [video](https://www.youtube.com/watch?v=R8vQjgAtPOE)
 
