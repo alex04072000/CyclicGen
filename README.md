@@ -18,9 +18,10 @@ Further information please contact [Yu-Lun Liu](http://www.cmlab.csie.ntu.edu.tw
 * [TensorFlow](https://www.tensorflow.org/)
 
 * To download the pre-trained models:
-[CyclicGen_model (for UCF-101)]()
 
-[CyclicGen_model_large (for Middlebury)]()
+** [CyclicGen_model (for UCF-101)]()
+
+** [CyclicGen_model_large (for Middlebury)]()
 
 ## Data Preparation
 * [Deep Voxel Flow (DVF)](https://github.com/liuziwei7/voxel-flow)
