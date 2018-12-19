@@ -33,7 +33,7 @@ python3 CyclicGen_train_stage1.py --subset=train
 ```
 * Run the testing and evaluation script:
 ``` bash
-python3 CyclicGen_train_stage1.py --subset=test
+python3 CyclicGen_train_stage1.py --pretrained_model_checkpoint_path=./ckpt/CyclicGen/model --subset=test --batch_size=1
 ```
 * Run your own pair of frames:
 ``` bash
