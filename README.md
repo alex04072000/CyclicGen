@@ -29,10 +29,12 @@ python3 CyclicGen_train_stage1.py --subset=train
 ``` bash
 python3 CyclicGen_train_stage1.py --subset=test
 ```
-* Uun your own pair of frames:
+* Run your own pair of frames:
 ``` bash
 python3 run.py --first=./first.png --second=./second.png --out ./out.png
 ```
+
+## [video](https://www.youtube.com/watch?v=R8vQjgAtPOE)
 
 ## Citation
 ```
@@ -43,3 +45,6 @@ python3 run.py --first=./first.png --second=./second.png --out ./out.png
          year = {2019}
 }
 ```
+
+## acknowledgment
+This work was supported in part by Ministry of Science and Technology (MOST) under grants MOST 107-2628-E-001-005-MY3, MOST107-2221-E-002-147-MY3, and MOST Joint Research Center for AI Technology and All Vista Healthcare under grant 107-2634-F-002-007.
