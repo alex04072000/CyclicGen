@@ -3,6 +3,8 @@ Video frame interpolation algorithms predict intermediate frames to produce vide
 
 [[Project]](http://www.cmlab.csie.ntu.edu.tw/~yulunliu/CyclicGen) 
 
+Paper
+
 <a href="http://www.cmlab.csie.ntu.edu.tw/~yulunliu/CyclicGen/liu.pdf" rel="Paper"><img src="thumb.png" alt="Paper" width="100%"></a>
 
 ## Overview
