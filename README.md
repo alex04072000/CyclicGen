@@ -49,7 +49,7 @@ to
 
 ```from CyclicGen_model_large import Voxel_flow_model```.
 
-## [video](https://www.youtube.com/watch?v=R8vQjgAtPOE)
+## [Video](https://www.youtube.com/watch?v=R8vQjgAtPOE)
 
 ## Citation
 ```
@@ -78,5 +78,5 @@ to
      }
 ```
 
-## acknowledgment
+## Acknowledgment
 This work was supported in part by Ministry of Science and Technology (MOST) under grants MOST 107-2628-E-001-005-MY3, MOST107-2221-E-002-147-MY3, and MOST Joint Research Center for AI Technology and All Vista Healthcare under grant 107-2634-F-002-007.
