@@ -29,9 +29,13 @@ Further information please contact [Yu-Lun Liu](http://www.cmlab.csie.ntu.edu.tw
 * [Deep Voxel Flow (DVF)](https://github.com/liuziwei7/voxel-flow)
 
 ## Usage
-* Run the training script:
+* Run the training script for stage 1:
 ``` bash
 python3 CyclicGen_train_stage1.py --subset=train
+```
+* Run the training script for stage 2:
+``` bash
+python3 CyclicGen_train_stage2.py --subset=train --pretrained_model_checkpoint_path=./ckpt/CyclicGen/model
 ```
 * Run the testing and evaluation script:
 ``` bash
