@@ -17,11 +17,9 @@ Further information please contact [Yu-Lun Liu](http://www.cmlab.csie.ntu.edu.tw
 ## Requirements setup
 * [TensorFlow](https://www.tensorflow.org/)
 
-* To download the pre-trained models:
+* To download the pre-trained CyclicGen models and HED model:
 
-    * [CyclicGen_model (for UCF-101)]()
-
-    * [CyclicGen_model_large (for Middlebury)]()
+    * [ckpt_and_hed_model](https://drive.google.com/open?id=1X7PWDY2nAx8ZeSLso5qeypRUCDokNFms)
 
 ## Data Preparation
 * [Deep Voxel Flow (DVF)](https://github.com/liuziwei7/voxel-flow)
