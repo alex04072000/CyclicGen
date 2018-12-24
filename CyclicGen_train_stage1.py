@@ -104,6 +104,7 @@ def train(dataset_frame1, dataset_frame2, dataset_frame3):
         with tf.variable_scope("Cycle_DVF"):
             model1 = Voxel_flow_model()
             prediction1, flow1 = model1.inference(tf.concat([input1, input3, edge_1, edge_3], 3))
+            reproduction_loss1 = model1.l1loss(prediction1, input2)
 
         t_vars = tf.trainable_variables()
         print('all layers:')
@@ -112,7 +113,7 @@ def train(dataset_frame1, dataset_frame2, dataset_frame3):
         print('optimize layers:')
         for var in dof_vars: print(var.name)
 
-        total_loss = prediction1
+        total_loss = reproduction_loss1
 
         # Perform learning rate scheduling.
         learning_rate = FLAGS.initial_learning_rate
