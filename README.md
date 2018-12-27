@@ -5,7 +5,7 @@ Video frame interpolation algorithms predict intermediate frames to produce vide
 
 Paper
 
-<a href="http://www.cmlab.csie.ntu.edu.tw/~yulunliu/CyclicGen/liu.pdf" rel="Paper"><img src="thumb.png" alt="Paper" width="100%"></a>
+<a href="http://www.cmlab.csie.ntu.edu.tw/~yulunliu/CyclicGen_/liu.pdf" rel="Paper"><img src="thumb.png" alt="Paper" width="100%"></a>
 
 ## Overview
 This is the author's reference implementation of the video frame interpolation using TensorFlow described in:
