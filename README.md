@@ -43,7 +43,7 @@ python3 CyclicGen_train_stage1.py --pretrained_model_checkpoint_path=./ckpt/Cycl
 ```
 * Run your own pair of frames:
 ``` bash
-python3 run.py --first=./first.png --second=./second.png --out=./out.png
+python3 run.py --pretrained_model_checkpoint_path=./ckpt/CyclicGen/model --first=./first.png --second=./second.png --out=./out.png
 ```
 Note that we provide two baseline models: 1) original DVF ```CyclicGen_model.py```, and 2) DVF with more layers in order to increase the receptive field ```CyclicGen_model_large.py```. While test on UCF-101 dataset, we use the ```CyclicGen_model.py``` network. The motions in Middlebury dataset are much larger than UCF-101, some even exceed the receiptive field of DVF network. So we use ```CyclicGen_model_large.py``` for fine-tuning and testing. You can easily switch between these two models by changing the line 
 
