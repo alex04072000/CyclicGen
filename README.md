@@ -58,9 +58,9 @@ to
 ## Citation
 ```
 [1]  @inproceedings{liu2019cyclicgen,
-         author = {Yu-Lun Liu, Yi-Tung Liao, Yen-Yu Lin, and Yung-Yu Chuang},
+         author = {Yu-Lun Liu and Yi-Tung Liao and Yen-Yu Lin and Yung-Yu Chuang},
          title = {Deep Video Frame Interpolation using Cyclic Frame Generation},
-         booktitle = {AAAI},
+         booktitle = {Proceedings of the 33rd Conference on Artificial Intelligence (AAAI)},
          year = {2019}
      }
 ```
